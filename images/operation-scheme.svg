@@ -1,0 +1,1674 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500.3306884765625"
+   height="266.46875"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="operation-scheme.svg"
+   inkscape:export-filename="/home/martin/zal/Dropbox/docasne-doma/rpi/yawspi/images/block-scheme.png"
+   inkscape:export-xdpi="150"
+   inkscape:export-ydpi="150">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="193.87328"
+     inkscape:cy="-226.38199"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer3"
+     showgrid="true"
+     units="mm"
+     inkscape:window-width="1629"
+     inkscape:window-height="1030"
+     inkscape:window-x="1020"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-object-midpoints="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-midpoints="false"
+     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:bbox-paths="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-midpoints="false"
+     inkscape:snap-center="false"
+     inkscape:snap-global="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-grids="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       units="mm"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="-24.04736844340957mm"
+       originy="75.09923145579644mm"
+       spacingx="1mm"
+       spacingy="1mm" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3947">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop3949" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:0;"
+         offset="1"
+         id="stop3951" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         id="path4429"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         id="path4417"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,4.898587196589414e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         id="path4168"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.01601326 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="scale(-0.5999999999999996,-0.5999999999999996)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lstart"
+       style="overflow:visible">
+      <path
+         id="path4159"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.01601326 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(1.1,0,0,1.1,1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Send"
+       style="overflow:visible">
+      <path
+         id="path4174"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.01601326 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-0.3,0,0,-0.3,0.6899999999999999,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <linearGradient
+       id="linearGradient3878"
+       osb:paint="gradient">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3880" />
+      <stop
+         id="stop3886"
+         offset="0.5"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3882" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3800">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3802" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3804" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="Arrow2LendS"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2LendS"
+       style="overflow:visible">
+      <path
+         id="path4096"
+         style="stroke-linejoin:round;stroke:#00ff00;stroke-width:0.625;fill:#00ff00;fill-rule:evenodd"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2LendSY"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2LendSY"
+       style="overflow:visible">
+      <path
+         id="path4467"
+         style="stroke-linejoin:round;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;fill:#000000"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lendy"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lendy"
+       style="overflow:visible">
+      <path
+         id="path4844"
+         style="stroke-linejoin:round;stroke:#00ff00;stroke-width:0.625;fill:#00ff00;fill-rule:evenodd"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2LendF"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2LendF"
+       style="overflow:visible">
+      <path
+         id="path4847"
+         style="stroke-linejoin:round;stroke:#00ff00;stroke-width:0.625;fill:#00ff00;fill-rule:evenodd"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2LendD"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2LendD"
+       style="overflow:visible">
+      <path
+         id="path5230"
+         style="stroke-linejoin:round;stroke:#ff0000;stroke-width:0.625;fill:#ff0000;fill-rule:evenodd"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lendx"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lendx"
+       style="overflow:visible">
+      <path
+         id="path5233"
+         style="stroke-linejoin:round;stroke:#00ff00;stroke-width:0.625;fill:#00ff00;fill-rule:evenodd"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2LendA"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2LendA"
+       style="overflow:visible">
+      <path
+         id="path5236"
+         style="stroke-linejoin:round;stroke:#ff0000;stroke-width:0.625;fill:#ff0000;fill-rule:evenodd"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2LendFT"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2LendFT"
+       style="overflow:visible">
+      <path
+         id="path5239"
+         style="stroke-linejoin:round;stroke:#00ff00;stroke-width:0.625;fill:#00ff00;fill-rule:evenodd"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend6"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend6"
+       style="overflow:visible">
+      <path
+         id="path5242"
+         style="stroke-linejoin:round;stroke:#00ff00;stroke-width:0.625;fill:#00ff00;fill-rule:evenodd"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lendk"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lendk"
+       style="overflow:visible">
+      <path
+         id="path5645"
+         style="stroke-linejoin:round;stroke:#ff0000;stroke-width:0.625;fill:#ff0000;fill-rule:evenodd"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2LendY"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2LendY"
+       style="overflow:visible">
+      <path
+         id="path6052"
+         style="stroke-linejoin:round;stroke:#00ff00;stroke-width:0.625;fill:#00ff00;fill-rule:evenodd"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lendq"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lendq"
+       style="overflow:visible">
+      <path
+         id="path6055"
+         style="stroke-linejoin:round;stroke:#00ff00;stroke-width:0.625;fill:#00ff00;fill-rule:evenodd"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lendj"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lendj"
+       style="overflow:visible">
+      <path
+         id="path6058"
+         style="stroke-linejoin:round;stroke:#00ff00;stroke-width:0.625;fill:#00ff00;fill-rule:evenodd"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2LendAC"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2LendAC"
+       style="overflow:visible">
+      <path
+         id="path6524"
+         style="stroke-linejoin:round;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;fill:#ff0000"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lends"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lends"
+       style="overflow:visible">
+      <path
+         id="path6527"
+         style="stroke-linejoin:round;stroke:#ff0000;stroke-width:0.625;fill:#ff0000;fill-rule:evenodd"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2LendU"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2LendU"
+       style="overflow:visible">
+      <path
+         id="path6530"
+         style="stroke-linejoin:round;stroke:#000000;stroke-width:0.625;fill:#000000;fill-rule:evenodd"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2LendUf"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2LendUf"
+       style="overflow:visible">
+      <path
+         id="path6999"
+         style="stroke-linejoin:round;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;fill:#ff0000"
+         d="M 8.718587799999999,4.0337352 -2.2072895,0.016013256 8.718588399999999,-4.001707800000001 C 6.97309,-1.6296469 6.9831476,1.6157441 8.718587799999999,4.0337352 z"
+         transform="matrix(-1.1,1.347111479062089e-16,-1.347111479062089e-16,-1.1,-1.1,1.347111479062089e-16)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="frame">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline"
+       id="rect10968"
+       width="531.49603"
+       height="301.18109"
+       x="-14.341039"
+       y="-17.347424"
+       inkscape:export-filename="/home/martin/zal/Dropbox/docasne-doma/rpi/yawspi/images/operation-scheme-all.png"
+       inkscape:export-xdpi="100.10589"
+       inkscape:export-ydpi="100.10589" />
+    <rect
+       inkscape:export-ydpi="100.03692"
+       inkscape:export-xdpi="100.03692"
+       inkscape:export-filename="/home/martin/zal/Dropbox/docasne-doma/rpi/yawspi/images/operation-scheme-iswatertime.png"
+       y="336.98328"
+       x="21.092001"
+       height="460.62994"
+       width="496.06299"
+       id="rect7539"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="arrows"
+     style="display:inline">
+    <path
+       transform="translate(-102.03792,-234.375)"
+       sodipodi:nodetypes="ccc"
+       style="fill:none;stroke:#00ff00;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendF)"
+       d="m 247.14567,323.32679 124.01575,0 c 0,11.81102 0,-56.11081 0,17.71653"
+       id="path10071"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path4384"
+       d="m 247.14567,270.17718 124.01575,0 0,53.14961"
+       style="fill:none;stroke:#00ff00;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lendy)"
+       sodipodi:nodetypes="ccc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       sodipodi:nodetypes="cccc"
+       style="fill:none;stroke:#000000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
+       d="m 105.41339,500.49214 0,-265.74803 88.58267,0 0,17.71654"
+       id="path5567"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       sodipodi:nodetypes="ccc"
+       style="fill:none;stroke:#000000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
+       d="m 193.99606,429.626 0,70.86614 -88.58267,0"
+       id="path5579"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path4067"
+       d="m 193.99606,394.19293 0,35.43307"
+       style="fill:none;stroke:#ff0000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendAC)"
+       sodipodi:nodetypes="cc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path4402"
+       d="m 371.16142,482.77561 0,17.71653 -177.16536,0"
+       style="fill:none;stroke:#000000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
+       sodipodi:nodetypes="ccc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       sodipodi:nodetypes="ccc"
+       style="fill:none;stroke:#00ff00;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendFT)"
+       d="m 548.32677,394.19293 17.71654,0 c 0,11.81102 0,35.43307 0,35.43307"
+       id="path5640"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path5642"
+       d="m 566.04331,447.34254 0,17.71653 -124.01575,0 0,-46.06299 -70.86614,0"
+       style="fill:none;stroke:#000000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       sodipodi:nodetypes="ccc"
+       style="fill:none;stroke:#ff0000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendD)"
+       d="m 495.17717,433.16931 0,14.17323 -53.14961,0"
+       id="path5644"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
+       d="m 371.16142,358.75986 c 0,11.81102 0,-56.11081 0,17.71653"
+       id="path5632"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path5634"
+       d="m 371.16142,411.90947 c 0,11.81102 0,-56.11081 0,17.71653"
+       style="fill:none;stroke:#ff0000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lendk)"
+       sodipodi:nodetypes="cc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
+       d="m 371.16142,447.34254 c 0,11.81102 0,-56.11081 0,17.71653"
+       id="path5636"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path5577"
+       d="m 247.14567,376.47639 17.71654,0 c 0,11.81103 0,-56.1108 0,17.71654"
+       style="fill:none;stroke:#00ff00;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend6)"
+       sodipodi:nodetypes="ccc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path7413"
+       d="m 264.86221,411.90947 0,17.71653 c -11.81103,0 2.96119,0 -70.86615,0"
+       style="fill:none;stroke:#000000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
+       sodipodi:nodetypes="ccc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path5651"
+       d="m 193.99606,341.04332 c 0,11.81103 0,-56.1108 0,17.71654"
+       style="fill:none;stroke:#ff0000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendUf)"
+       sodipodi:nodetypes="cc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#ff0000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lends)"
+       d="m 193.99606,287.89372 c 0,11.81102 0,-56.11081 0,17.71653"
+       id="path5653"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path5638"
+       d="m 424.31102,394.19293 c 11.81103,0 -56.1108,0 17.71654,0"
+       style="fill:none;stroke:#00ff00;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lendx)"
+       sodipodi:nodetypes="cc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       sodipodi:nodetypes="ccc"
+       style="fill:none;stroke:#00ff00;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lendj)"
+       d="m 193.99606,961.12207 0,17.71653 141.73229,0"
+       id="path6426"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path6432"
+       d="m 477.46064,961.12207 0,17.71653 -141.73229,0"
+       style="fill:none;stroke:#00ff00;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lendj)"
+       sodipodi:nodetypes="ccc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path6453"
+       d="m 388.87795,642.22443 159.44882,0 0,53.1496"
+       style="fill:none;stroke:#ff0000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendD)"
+       sodipodi:nodetypes="ccc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       sodipodi:nodetypes="ccc"
+       style="fill:none;stroke:#ff0000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendD)"
+       d="m 530.61024,890.25592 17.71653,0 0,53.1496"
+       id="path6455"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path6457"
+       d="m 530.61024,943.40553 17.71653,0 0,53.1496"
+       style="fill:none;stroke:#ff0000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendD)"
+       sodipodi:nodetypes="ccc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       sodipodi:nodetypes="ccc"
+       style="fill:none;stroke:#ff0000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendD)"
+       d="m 388.87795,695.37403 159.44882,0 0,53.1496"
+       id="path6459"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path6461"
+       d="m 388.87795,748.52364 159.44882,0 0,141.73228"
+       style="fill:none;stroke:#ff0000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendD)"
+       sodipodi:nodetypes="ccc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path6465"
+       d="m 388.87795,943.40553 17.71654,0 0,28.34645 141.73228,0"
+       style="fill:none;stroke:#ff0000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendD)"
+       sodipodi:nodetypes="cccc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       sodipodi:nodetypes="ccc"
+       style="fill:none;stroke:#ff0000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendD)"
+       d="m 247.14568,890.25592 17.71653,0 0,53.1496"
+       id="path6469"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path6471"
+       d="m 243.60236,943.40553 21.25985,0 0,28.34645 141.73228,0"
+       style="fill:none;stroke:#ff0000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendD)"
+       sodipodi:nodetypes="cccc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path4026"
+       d="m 193.99606,907.97246 c 0,11.81102 0,-56.11082 0,17.71653"
+       style="fill:none;stroke:#00ff00;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lendj)"
+       sodipodi:nodetypes="cc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path6428"
+       d="m 335.72835,961.12207 c 0,11.81102 0,-38.39429 0,35.43306"
+       style="fill:none;stroke:#00ff00;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lendq)"
+       sodipodi:nodetypes="cc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path6467"
+       d="m 388.87796,890.25592 17.71653,0 0,53.1496"
+       style="fill:none;stroke:#ff0000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendD)"
+       sodipodi:nodetypes="ccc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#00ff00;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lendq)"
+       d="m 335.72835,907.97246 c 0,11.81102 0,-56.11082 0,17.71653"
+       id="path4028"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path4030"
+       d="m 477.46063,907.97246 c 0,11.81102 0,-56.11082 0,17.71653"
+       style="fill:none;stroke:#00ff00;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendY)"
+       sodipodi:nodetypes="cc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path4438"
+       d="m 335.72835,819.38978 c 0,11.81102 0,-20.67774 0,53.14961"
+       style="fill:none;stroke:#000000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendSY)"
+       sodipodi:nodetypes="cc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendSY)"
+       d="m 335.72835,819.38978 c 0,28.34646 -141.73229,-17.71654 -141.73229,53.14961"
+       id="path4809"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path4813"
+       d="m 335.72835,819.38978 c 0,28.34646 141.73229,-17.71654 141.73229,53.14961"
+       style="fill:none;stroke:#000000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendSY)"
+       sodipodi:nodetypes="cc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path4018"
+       d="m 335.72835,606.79136 c 0,11.81102 0,-56.11082 0,17.71653"
+       style="fill:none;stroke:#000000;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
+       sodipodi:nodetypes="cc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#00ff00;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendS)"
+       d="m 335.72835,659.94096 c 0,11.81102 0,-56.11081 0,17.71654"
+       id="path4020"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       inkscape:connector-curvature="0"
+       id="path4434"
+       d="m 335.72835,712.13252 c 0,11.81102 0,-56.11081 0,17.71654"
+       style="fill:none;stroke:#00ff00;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendS)"
+       sodipodi:nodetypes="cc" />
+    <path
+       transform="translate(-102.03792,-234.375)"
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#00ff00;stroke-width:0.70866142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2LendS)"
+       d="m 335.72835,766.90965 c 0,11.81102 0,-56.11081 0,17.71654"
+       id="path4436"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-102.03792,-234.375)"
+     style="display:inline">
+    <path
+       inkscape:connector-curvature="0"
+       id="path4346"
+       d="m 318.01181,394.19293 53.14961,-17.71654 53.1496,17.71654 -53.1496,17.71653 z"
+       style="fill:#ffe700;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       style="fill:#ffe700;fill-opacity:1;stroke:none"
+       d="m 424.31102,890.25593 53.14961,-17.71654 53.1496,17.71654 -53.1496,17.71653 z"
+       id="path3961"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3959"
+       d="m 282.57874,890.25593 53.14961,-17.71654 53.1496,17.71654 -53.1496,17.71653 z"
+       style="fill:#ffee13;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:#ffe700;fill-opacity:1;stroke:none"
+       d="m 140.84645,890.25593 53.14961,-17.71654 53.1496,17.71654 -53.1496,17.71653 z"
+       id="path3253"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5445"
+       y="642.89105"
+       x="390.34836"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="642.89105"
+         x="390.34836"
+         id="tspan5447"
+         sodipodi:role="line">-</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5453"
+       y="265.8168"
+       x="246.08611"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="265.8168"
+         x="246.08611"
+         id="tspan5455"
+         sodipodi:role="line">+</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5461"
+       y="389.83255"
+       x="423.25146"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="389.83255"
+         x="423.25146"
+         id="tspan5463"
+         sodipodi:role="line">+</tspan></text>
+    <g
+       transform="translate(138.18898,60.236222)"
+       id="g5465" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       id="text5525"
+       sodipodi:linespacing="125%"><textPath
+         xlink:href="#path5646"
+         id="textPath5648"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+   id="tspan5527">main program loop - waiting for next iteration</tspan></textPath></text>
+    <path
+       style="fill:none;stroke:none"
+       d="m 123.12992,482.77561 c 0,0 0,-7.08662 0,-14.17323 0,-17.71653 0,-20.86614 0,-45.27558 0,-12.20473 0,-75.8745 0,-122.04725 0,-24.40945 17.71654,-48.8189 35.43307,-48.8189 17.71654,0 17.71654,0 17.71654,0"
+       id="path5646"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssszc" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="246.08611"
+       y="318.9664"
+       id="text5663"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5665"
+         x="246.08611"
+         y="318.9664"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">+</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5667"
+       y="372.116"
+       x="246.08611"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="372.116"
+         x="246.08611"
+         id="tspan5669"
+         sodipodi:role="line">+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="547.26721"
+       y="389.83255"
+       id="text5671"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5673"
+         x="547.26721"
+         y="389.83255"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="196.66046"
+       y="297.08838"
+       id="text5675"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5677"
+         x="196.66046"
+         y="297.08838"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">-</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5679"
+       y="350.23801"
+       x="196.66046"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="350.23801"
+         x="196.66046"
+         id="tspan5681"
+         sodipodi:role="line">-</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="196.66046"
+       y="403.3876"
+       id="text5683"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5685"
+         x="196.66046"
+         y="403.3876"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">-</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5687"
+       y="421.10413"
+       x="363.19589"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="421.10413"
+         x="363.19589"
+         id="tspan5689"
+         sodipodi:role="line">-</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="497.84155"
+       y="442.36398"
+       id="text5691"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5693"
+         x="497.84155"
+         y="442.36398"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">-</tspan></text>
+    <path
+       style="fill:#ffe700;fill-opacity:1;stroke:none"
+       d="m 140.84646,270.17718 53.14961,-17.71654 53.1496,17.71654 -53.1496,17.71653 z"
+       id="path4304"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="193.81541"
+       y="267.65518"
+       id="text4105"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4107"
+         x="193.81541"
+         y="267.65518"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">main loop</tspan><tspan
+         sodipodi:role="line"
+         x="193.81541"
+         y="280.15518"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         id="tspan4306">ended?</tspan></text>
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:none"
+       id="rect4316"
+       width="91.24015"
+       height="17.716537"
+       x="325.98425"
+       y="341.04333" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="328.7894"
+       y="352.6311"
+       id="text4318"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4320"
+         x="328.7894"
+         y="352.6311"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">measure sensors</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4340"
+       y="391.67093"
+       x="370.98077"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         id="tspan4344"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="391.67093"
+         x="370.98077"
+         sodipodi:role="line">operation</tspan><tspan
+         id="tspan4350"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="404.17093"
+         x="370.98077"
+         sodipodi:role="line">enabled?</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path4360"
+       d="m 140.84646,323.32679 53.14961,-17.71654 53.1496,17.71654 -53.1496,17.71653 z"
+       style="fill:#ffe700;fill-opacity:1;stroke:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4354"
+       y="320.80481"
+       x="193.81541"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         id="tspan4358"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="320.80481"
+         x="193.81541"
+         sodipodi:role="line">ask for</tspan><tspan
+         id="tspan4364"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="333.30481"
+         x="193.81541"
+         sodipodi:role="line">break?</tspan></text>
+    <path
+       style="fill:#ffe700;fill-opacity:1;stroke:none"
+       d="m 140.84646,376.4764 53.14961,-17.71654 53.1496,17.71654 -53.1496,17.71653 z"
+       id="path4382"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="193.81541"
+       y="373.95441"
+       id="text4376"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="193.81541"
+         y="373.95441"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         id="tspan4378">ask for</tspan><tspan
+         sodipodi:role="line"
+         x="193.81541"
+         y="386.45441"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         id="tspan4380">watering?</tspan></text>
+    <rect
+       y="429.62601"
+       x="325.09842"
+       height="17.716537"
+       width="92.125969"
+       id="rect4388"
+       style="fill:#00ffff;fill-opacity:1;stroke:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4390"
+       y="441.81924"
+       x="336.20047"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="441.81924"
+         x="336.20047"
+         id="tspan4392"
+         sodipodi:role="line">check/set RTC</tspan></text>
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:none"
+       id="rect4396"
+       width="92.125969"
+       height="17.716537"
+       x="325.09842"
+       y="465.05908" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="350.42654"
+       y="476.67615"
+       id="text4398"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4400"
+         x="350.42654"
+         y="476.67615"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">save log</tspan></text>
+    <path
+       sodipodi:nodetypes="ccccc"
+       style="fill:#ffe700;fill-opacity:1;stroke:none"
+       d="m 442.02756,394.19293 53.14961,-28.34646 53.1496,28.34646 -53.1496,38.97638 z"
+       id="path5481"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="495.48965"
+       y="384.48593"
+       id="text5475"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan5485"
+         sodipodi:role="line"
+         x="495.48965"
+         y="384.48593"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">for each</tspan><tspan
+         sodipodi:role="line"
+         x="495.48965"
+         y="396.98593"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         id="tspan5519">program:</tspan><tspan
+         id="tspan5657"
+         sodipodi:role="line"
+         x="495.48965"
+         y="409.48593"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#0013ff;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">is water</tspan><tspan
+         id="tspan5501"
+         sodipodi:role="line"
+         x="495.48965"
+         y="421.98593"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#0013ff;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">time?</tspan></text>
+    <rect
+       y="394.19293"
+       x="229.42914"
+       height="17.716537"
+       width="70.866135"
+       id="rect5559"
+       style="fill:#00ffff;fill-opacity:1;stroke:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5561"
+       y="406.77924"
+       x="232.06424"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="406.77924"
+         x="232.06424"
+         id="tspan5563"
+         sodipodi:role="line">water station</tspan></text>
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:none"
+       id="rect5583"
+       width="70.866135"
+       height="17.716537"
+       x="530.61023"
+       y="429.62601" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="533.24536"
+       y="442.21231"
+       id="text5585"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5587"
+         x="533.24536"
+         y="442.21231"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">water station</tspan></text>
+    <g
+       id="g5709"
+       transform="translate(-81.496041,106.2992)">
+      <g
+         id="g5736">
+        <rect
+           rx="10.629906"
+           ry="8.8582687"
+           y="482.7756"
+           x="371.16141"
+           height="17.716537"
+           width="92.125969"
+           id="rect5711"
+           style="fill:#ffffff;fill-opacity:1;stroke:#0003ff;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text5713"
+           y="495.36191"
+           x="381.71414"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+             y="495.36191"
+             x="381.71414"
+             id="tspan5715"
+             sodipodi:role="line">is water time?</tspan></text>
+      </g>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3133"
+       y="878.42102"
+       x="-27.503105"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"
+       transform="matrix(0.95644382,-0.29191646,0.29191646,0.95644382,0,0)"><tspan
+         id="tspan3137"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="878.42102"
+         x="-27.503105"
+         sodipodi:role="line">waterlevel</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="-847.73627"
+       y="346.35828"
+       id="text3141"
+       sodipodi:linespacing="125%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         x="-847.73627"
+         y="346.35828"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         id="tspan3143">weekly</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3145"
+       y="641.30981"
+       x="709.06049"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"
+       transform="matrix(0.93768444,0.34748798,-0.34748798,0.93768444,0,0)"><tspan
+         id="tspan3147"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="641.30981"
+         x="709.06049"
+         sodipodi:role="line">interval</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="193.89352"
+       y="887.73395"
+       id="text3149"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="193.89352"
+         y="887.73395"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         id="tspan3151">all stations empty</tspan><tspan
+         sodipodi:role="line"
+         x="193.89352"
+         y="900.23395"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         id="tspan3153">more than X hours?</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3175"
+       y="887.73395"
+       x="335.80402"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         id="tspan3179"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="887.73395"
+         x="335.80402"
+         sodipodi:role="line">valid day</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="900.23395"
+         x="335.80402"
+         sodipodi:role="line"
+         id="tspan3183">of the week?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="477.09195"
+       y="886.76471"
+       id="text3197"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="477.09195"
+         y="886.76471"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         id="tspan3199">Nth day after last</tspan><tspan
+         id="tspan3201"
+         sodipodi:role="line"
+         x="477.09195"
+         y="899.26471"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">watering day?</tspan></text>
+    <path
+       style="fill:#ffe700;fill-opacity:1;stroke:none"
+       d="m 282.57874,642.22443 53.14961,-17.71654 53.1496,17.71654 -53.1496,17.71653 z"
+       id="path3215"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="335.80402"
+       y="638.70392"
+       id="text3105"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="335.80402"
+         y="638.70392"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         id="tspan3107">program</tspan><tspan
+         sodipodi:role="line"
+         x="335.80402"
+         y="651.20392"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         id="tspan3109">enabled?</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path3221"
+       d="m 282.57874,695.37404 53.14961,-17.71654 53.1496,17.71654 -53.1496,17.71653 z"
+       style="fill:#ffe700;fill-opacity:1;stroke:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3117"
+       y="694.34473"
+       x="335.78448"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         id="tspan3119"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="694.34473"
+         x="335.78448"
+         sodipodi:role="line">water source</tspan><tspan
+         id="tspan3121"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="706.84473"
+         x="335.78448"
+         sodipodi:role="line">empty?</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path3225"
+       d="m 282.57874,801.67325 53.14961,-17.71654 53.1496,17.71654 -53.1496,17.71653 z"
+       style="fill:#ffe700;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="335.80402"
+       y="798.18201"
+       id="text3123"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="335.80402"
+         y="798.18201"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         id="tspan3127">mode of</tspan><tspan
+         sodipodi:role="line"
+         x="335.80402"
+         y="810.68201"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         id="tspan3131">operation?</tspan></text>
+    <path
+       style="fill:#ffe700;fill-opacity:1;stroke:none"
+       d="m 282.57874,748.52364 53.14961,-17.71654 53.1496,17.71654 -53.1496,17.71653 z"
+       id="path3223"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3161"
+       y="746.28241"
+       x="335.84552"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         id="tspan3165"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="746.28241"
+         x="335.84552"
+         sodipodi:role="line">valid time</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="758.78241"
+         x="335.84552"
+         sodipodi:role="line"
+         id="tspan3169">of day?</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path4012"
+       d="m 140.84645,943.40553 53.14961,-17.71654 53.1496,17.71654 -53.1496,17.71653 z"
+       style="fill:#ffe700;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:#ffe700;fill-opacity:1;stroke:none"
+       d="m 282.57874,943.40553 53.14961,-17.71654 53.1496,17.71654 -53.1496,17.71653 z"
+       id="path4014"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4016"
+       d="m 424.31102,943.40553 53.14961,-17.71654 53.1496,17.71654 -53.1496,17.71653 z"
+       style="fill:#ffe700;fill-opacity:1;stroke:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3155"
+       y="939.91431"
+       x="194.23288"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         id="tspan3159"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="939.91431"
+         x="194.23288"
+         sodipodi:role="line">more than Y hours</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="952.41431"
+         x="194.23288"
+         sodipodi:role="line"
+         id="tspan3173">from last watering?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="335.96515"
+       y="939.91431"
+       id="text3185"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="335.96515"
+         y="939.91431"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         id="tspan3187">more than Y hours</tspan><tspan
+         id="tspan3189"
+         sodipodi:role="line"
+         x="335.96515"
+         y="952.41431"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">from last watering?</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3191"
+       y="939.91431"
+       x="477.69745"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         id="tspan3193"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="939.91431"
+         x="477.69745"
+         sodipodi:role="line">more than Y hours</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="952.41431"
+         x="477.69745"
+         sodipodi:role="line"
+         id="tspan3195">from last watering?</tspan></text>
+    <g
+       transform="translate(-92.125966,531.49607)"
+       id="g4032">
+      <g
+         id="g4034" />
+    </g>
+    <g
+       transform="translate(-81.496041,513.77953)"
+       id="g4052">
+      <g
+         id="g4054">
+        <g
+           id="g4062">
+          <rect
+             rx="10.629906"
+             ry="8.8582687"
+             y="482.7756"
+             x="371.16141"
+             height="17.716537"
+             width="92.125969"
+             id="rect4056"
+             style="fill:#ffffff;fill-opacity:1;stroke:#0003ff;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text4058"
+             y="495.36191"
+             x="388.616"
+             style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+               y="495.36191"
+               x="388.616"
+               id="tspan4060"
+               sodipodi:role="line">water time!</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g6436"
+       transform="translate(113.38585,265.74805)">
+      <g
+         id="g6438">
+        <g
+           id="g6440">
+          <g
+             id="g6448"
+             transform="translate(17.716534,248.03148)">
+            <rect
+               rx="10.629906"
+               ry="8.8582687"
+               y="482.7756"
+               x="371.16141"
+               height="17.716537"
+               width="92.125969"
+               id="rect6442"
+               style="fill:#ffffff;fill-opacity:1;stroke:#0003ff;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+            <text
+               sodipodi:linespacing="125%"
+               id="text6444"
+               y="495.36191"
+               x="380.54959"
+               style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+               xml:space="preserve"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+                 y="495.36191"
+                 x="380.54959"
+                 id="tspan6446"
+                 sodipodi:role="line">no water time!</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="338.2121"
+       y="666.21051"
+       id="text7415"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7417"
+         x="338.2121"
+         y="666.21051"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">+</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7419"
+       y="720.17719"
+       x="338.2121"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="720.17719"
+         x="338.2121"
+         id="tspan7421"
+         sodipodi:role="line">+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="338.2121"
+       y="773.32678"
+       id="text7423"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7425"
+         x="338.2121"
+         y="773.32678"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="338.2121"
+       y="968.20868"
+       id="text7431"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7433"
+         x="338.2121"
+         y="968.20868"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">+</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7435"
+       y="968.20868"
+       x="197.30666"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="968.20868"
+         x="197.30666"
+         id="tspan7437"
+         sodipodi:role="line">+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="197.30666"
+       y="915.05908"
+       id="text7439"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7441"
+         x="197.30666"
+         y="915.05908"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="480.77121"
+       y="968.20868"
+       id="text7443"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7445"
+         x="480.77121"
+         y="968.20868"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">+</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7447"
+       y="915.05908"
+       x="480.77121"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="915.05908"
+         x="480.77121"
+         id="tspan7449"
+         sodipodi:role="line">+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="390.34836"
+       y="696.04071"
+       id="text7451"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7453"
+         x="390.34836"
+         y="696.04071"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">-</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7455"
+       y="749.19031"
+       x="390.34836"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="749.19031"
+         x="390.34836"
+         id="tspan7457"
+         sodipodi:role="line">-</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="390.34836"
+       y="890.92255"
+       id="text7459"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7461"
+         x="390.34836"
+         y="890.92255"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">-</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7463"
+       y="944.0722"
+       x="390.34836"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="944.0722"
+         x="390.34836"
+         id="tspan7465"
+         sodipodi:role="line">-</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7467"
+       y="890.92255"
+       x="532.08063"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="890.92255"
+         x="532.08063"
+         id="tspan7469"
+         sodipodi:role="line">-</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="532.08063"
+       y="944.0722"
+       id="text7471"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7473"
+         x="532.08063"
+         y="944.0722"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">-</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="248.61607"
+       y="890.92255"
+       id="text7475"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7477"
+         x="248.61607"
+         y="890.92255"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">-</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7479"
+       y="944.0722"
+       x="248.61607"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="944.0722"
+         x="248.61607"
+         id="tspan7481"
+         sodipodi:role="line">-</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7427"
+       y="915.05908"
+       x="338.2121"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:none;stroke-width:0.35433072;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         y="915.05908"
+         x="338.2121"
+         id="tspan7429"
+         sodipodi:role="line">+</tspan></text>
+  </g>
+</svg>
