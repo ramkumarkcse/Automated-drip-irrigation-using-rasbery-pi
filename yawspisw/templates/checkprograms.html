@@ -1,0 +1,24 @@
+$def with (list)
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"></meta>
+        <title>YawsPi: Check programs</title>
+    </head>
+<body>
+    <form method="post"> 
+        <button name="cancel" title="Back to home page"><img src="static/icons/back.png"
+        align="absmiddle"> Back to programs page</button>
+    </form>
+    <H3>Plan of programs for next two weeks:</H3>
+    (All but programs with water level mode of operation.)
+    <p></p>
+    <table border="0">
+        <tbody>
+            $:list
+        </tbody>
+    </table>
+</body>
+</html>
+

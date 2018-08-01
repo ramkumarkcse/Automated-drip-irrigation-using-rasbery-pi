@@ -1,0 +1,182 @@
+$def with (gv)
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"></meta>
+        <title>YawsPi: Home page</title>
+    </head>
+<body>
+    <H3>YAWSPI - Yet Another Watering System for raspberry PI</H3>
+    <p></p>
+    System name: <b>$gv.gs['Name']</b>
+    <br>
+    SW Version: <b>$gv.gs['Version']</b>
+    <br>
+    RPi Revision: <b>$gv.hw.RPiRevision</b>
+    <br>
+    Device date and time: <b>$gv.cv['TimeStr']</b>
+    <p></p>
+    <b>Status</b>
+    <br>
+    Current activity:
+    <b>$gv.cv['CurAct']</b>
+    <br>
+    Operation:
+        <b>
+        $if gv.gs['Enabled']:
+            <font color='green'>Running</font>
+        $else:
+            <font color='red'>Stopped</font>
+        </b> 
+    <br>
+    Loging:
+        <b>
+        $if gv.gs['Logging']:
+            <font color='green'>Enabled</font>, limit:
+                $if gv.gs['LoggingLimit'] == 0:
+                    unlimited
+                $else:
+                    $gv.gs['LoggingLimit'] lines
+        $else:
+            <font color='red'>Stopped</font>
+        </b>
+    <br>
+    <p></p>
+    <b>Weather sensors: </b>
+    <table border="1">
+            <tr><td>
+            $if 'temp' in gv.hw.Sensors:
+                    <br>
+                    Temperature: <b>$gv.cv['SeTemp'] &deg</b>
+            </td><td>
+            $if 'press' in gv.hw.Sensors:
+                    <br>
+                    Pressure: <b>$"{:.0f}".format(gv.cv['SePress']) Pa</b>
+            </td><td>
+            $if 'humid' in gv.hw.Sensors:
+                    <br>
+                    Humidity: <b>$"{:.0f}".format(gv.cv['SeHumid']) %</b>
+            </td><td>
+            $if 'illum' in gv.hw.Sensors:
+                    <br>
+                    Illuminance: <b>$"{:.0f}".format(gv.cv['SeIllum']) lux</b>
+            </td><td>
+            $if 'rain' in gv.hw.Sensors:
+                    <br>
+                    Rain: <b>$gv.cv['SeRain'] mm</b>
+            </td></tr>
+    </table>
+    <p></p>
+    <b>Source:</b>
+    <br>
+    Water level: <b>$'{:.0f}'.format(gv.cv['SoWL'] * 100) %</b>
+    <p></p>
+    <!-- table to put stations and programs beside each other -->
+    <table border="0">
+    <tr><td>
+
+    <table border="1">
+        <b>Stations status</b>
+        <tbody>
+            <tr>
+                <td>
+                    No
+                </td>
+                <td>
+                    Name
+                </td>
+                <td>
+                    Water Level
+                </td>
+            </tr>
+            $for i in range(gv.hw.StNo)
+                <tr>
+                    <td>
+                        $i
+                    </td>
+                    <td>
+                        $gv.hws['StData'][i]['Name']
+                    </td>
+                    <td>
+                        $'{:.0f}'.format(gv.cv['StWL'][i] * 100) %
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+
+    </td><td>
+
+    <table border="1">
+        <b>Programs status</b>
+        <tbody>
+            <tr>
+                <td>
+                    No
+                </td>
+                <td>
+                    Name
+                </td>
+                <td>
+                    Enabled
+                </td>
+                <td>
+                    Next Run In
+                </td>
+            </tr>
+            $for i in range(len(gv.prg))
+                <tr>
+                    <td>
+                        $i
+                    </td>
+                    <td>
+                        $gv.prg[i]['Name']
+                    </td>
+                    <td>
+                       $if gv.prg[i]['Enabled']:
+                           <font color='green'>Yes</font>
+                       $else:
+                           <font color='red'>No</font>
+                    </td>
+                    <td>
+                        $if gv.gs['Enabled']:
+                                $if gv.prg[i]['Enabled']:
+                                        $gv.cv['PrgNR'][i]
+                                $else:
+                                        -
+                        $else:
+                                Operation Stopped
+                    </tr>
+                </tr>
+        </tbody>
+    </table>
+
+
+    </td></tr>
+    </table>
+    <p></p>
+    Control:
+    <form method="post"> 
+        <button name="reload" title="Refresh this page"><img src="static/icons/update.png" align="absmiddle"> Refresh page</button>
+        <button name="breakmainloop" title="Checks water levels. If system started, check programs whether watering needed."><img src="static/icons/update.png" align="absmiddle">Check now</button>
+        $if gv.gs['Enabled']:
+            <button name="stop" title="Stop all programs"><img src="static/icons/stop.png" align="absmiddle"> Stop</button>
+        $else:
+            <button name="start" title="Start enabled programs"><img src="static/icons/start.png" align="absmiddle"> Start</button>
+        <button name="reboot" title="Reboot system"><img src="static/icons/quit.png" align="absmiddle"> Reboot</button>
+    </form>
+    <p></p>
+    Configurate:
+    <form method="post"> 
+        <button name="options" title="Change options"><img src="static/icons/options.png" align="absmiddle"> Options</button>
+        <button name="stations" title="List of stations and change settings"><img src="static/icons/stations.png" align="absmiddle"> Stations</button>
+        <button name="programs" title="Show programs and change settings"><img src="static/icons/programs.png" align="absmiddle"> Programs</button>
+    </form>
+    <p></p>
+    Check:
+    <form method="post"> 
+        <button name="log" title="Show log of events"><img src="static/icons/log.png" align="absmiddle"> Log</button>
+        <button name="history" title="Show history"><img src="static/icons/history.png" align="absmiddle"> History</button>
+    </form>
+</body>
+</html>

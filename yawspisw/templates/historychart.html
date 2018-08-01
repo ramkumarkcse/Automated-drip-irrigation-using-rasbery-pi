@@ -1,0 +1,56 @@
+$def with (frm, chartstr)
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"></meta>
+        <script type="text/javascript" src="static/pygal.js-gh-pages/2.0.x/pygal-tooltips.min.js"></script>
+        <title>YawsPi: History chart</title>
+    </head>
+<body>
+    <form method="post"> 
+        Set X axis range to: 
+        <button name="fullrange" title="Set x axis to all data"><img src="static/icons/xrange.png" align="absmiddle"> All data</button>
+        <button name="last2weeks" title="Set x axis to last 2 weeks"><img src="static/icons/xrange.png" align="absmiddle"> Last 2 weeks</button>
+        <button name="last2days" title="Set x axis to last 2 days"><img src="static/icons/xrange.png" align="absmiddle"> Last 2 days</button>
+        <br>
+        or manually from: hour 
+        $:frm.xminH.render() 
+        date
+        $if frm.xminH.note:
+            <strong class="wrong">$frm.xminH.note</strong>
+        $:frm.xminD.render()
+        $if frm.xminD.note:
+            <strong class="wrong">$frm.xminD.note</strong>
+        .
+        $:frm.xminM.render()
+        $if frm.xminM.note:
+            <strong class="wrong">$frm.xminM.note</strong>
+        .
+        $:frm.xminY.render()
+        $if frm.xminY.note:
+            <strong class="wrong">$frm.xminY.note</strong>
+        to: hour
+        $:frm.xmaxH.render() 
+        date
+        $if frm.xmaxH.note:
+            <strong class="wrong">$frm.xmaxH.note</strong>
+        $:frm.xmaxD.render()
+        $if frm.xmaxD.note:
+            <strong class="wrong">$frm.xmaxD.note</strong>
+        .
+        $:frm.xmaxM.render()
+        $if frm.xmaxM.note:
+            <strong class="wrong">$frm.xmaxM.note</strong>
+        .
+        $:frm.xmaxY.render()
+        $if frm.xmaxY.note:
+            <strong class="wrong">$frm.xmaxY.note</strong>
+        <button name="setminmax" title="Set x axis to input values"><img src="static/icons/submit.png" align="absmiddle"> Set</button>
+        <p></p>
+        <button name="back" title="Back to history page"><img src="static/icons/back.png" align="absmiddle"> Back to history page</button>
+    </form>
+    $:chartstr
+</body>
+</html>
+

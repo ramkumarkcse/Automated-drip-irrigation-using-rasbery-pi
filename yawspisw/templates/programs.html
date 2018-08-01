@@ -1,0 +1,75 @@
+$def with (gv)
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"></meta>
+        <title>YawsPi: Programs</title>
+    </head>
+<body>
+    <H3>Programs</H3>
+    <p></p>
+    <form method="post"> 
+        <button name="add" title="Add a new program"><img src="static/icons/program_add.png" align="absmiddle"> Add new program</button>
+        <button name="check" title="Check programs"><img src="static/icons/program_check.png" align="absmiddle"> Check programs</button>
+    </form>
+    <p></p>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>
+                    No
+                </td>
+                <td>
+                    Name
+                </td>
+                <td>
+                    Enabled
+                </td>
+                <td>
+                    Stations
+                </td>
+                <td>
+                Edit
+                </td>
+                <td>
+                Delete
+                </td>
+            </tr>
+            $for i in range(len(gv.prg))
+                <tr>
+                    <td>
+                        $i
+                    </td>
+                    <td>
+                        $gv.prg[i]['Name']
+                    </td>
+                    <td>
+                       $if gv.prg[i]['Enabled']:
+                           <font color='green'>Yes</font>
+                       $else:
+                           <font color='red'>No</font>
+                    </td>
+                    <td>
+                        $for j in gv.prg[i]['Stations']
+                            $gv.hws['StData'][j]['Name'] ($j),
+                    </td>
+                    <td>
+                        <form method="post"> 
+                            <button name="c$:i" title="Change settings of program $:i"><img src="static/icons/program_edit.png" align="absmiddle"></button>
+                        </form>
+                    </td>
+                    <td>
+                        <form method="post"> 
+                            <button name="r$:i" title="Delete program $:i"><img src="static/icons/program_delete.png" align="absmiddle"></button>
+                        </form>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+    <p></p>
+    <form method="post"> 
+        <button name="cancel" title="Back to home page"><img src="static/icons/back.png" align="absmiddle"> Back to home page</button>
+    </form>
+</body>
+</html>

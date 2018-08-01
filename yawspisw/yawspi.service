@@ -1,0 +1,11 @@
+[Unit]
+Description=yawspi
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python /home/pi/YawsPi/yawspisw/yawspisw.py
+WorkingDirectory=/home/pi/YawsPi/yawspisw
+
+[Install]
+WantedBy=multi-user.target

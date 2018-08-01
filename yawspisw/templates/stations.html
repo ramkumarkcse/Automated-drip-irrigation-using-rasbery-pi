@@ -1,0 +1,60 @@
+$def with (gv)
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"></meta>
+        <title>YawsPi: Stations</title>
+    </head>
+<body>
+    <H3>Stations</H3>
+    <p></p>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>
+                    No
+                </td>
+                <td>
+                    Name
+                </td>
+                <td>
+                    Edit
+                </td>
+                <td>
+                    Description
+                </td>
+                <td>
+                    Water now
+                </td>
+            </tr>
+            $for i in range(gv.hw.StNo)
+                <tr>
+                    <td>
+                        $i
+                    </td>
+                    <td>
+                        $gv.hws['StData'][i]['Name']
+                    </td>
+                    <td>
+                        <form method="post"> 
+                            <button name="$:i" title="Change settings of station $:i"><img src="static/icons/edit.png" align="absmiddle"></button>
+                        </form>
+                    </td>
+                    <td>
+                        $gv.hws['StData'][i]['Desc']
+                    </td>
+                    <td>
+                        <form method="post"> 
+                            <button name="askforrun$:i" title="Water station $:i now"><img src="static/icons/run_now.png" align="absmiddle"></button>
+                        </form>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+    <p></p>
+    <form method="post"> 
+        <button name="cancel" title="Back to home page"><img src="static/icons/back.png" align="absmiddle"> Back to home page</button>
+    </form>
+</body>
+</html>

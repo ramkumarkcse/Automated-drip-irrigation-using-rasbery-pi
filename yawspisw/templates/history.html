@@ -1,0 +1,60 @@
+$def with (gv)
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"></meta>
+        <title>YawsPi: History</title>
+    </head>
+<body>
+    <H3>History</H3>
+    <p></p>
+    <form method="post"> 
+        $if 'temp' in gv.hw.Sensors:
+                <button name="temp" title="Show history of temperature"><img src="static/icons/temperature.png" align="absmiddle"> Temperature</button>
+        $if 'humid' in gv.hw.Sensors:
+                <button name="humid" title="Show history of temperature"><img src="static/icons/humidity.png" align="absmiddle"> Humidity</button>
+        $if 'press' in gv.hw.Sensors:
+                <button name="press" title="Show history of temperature"><img src="static/icons/pressure.png" align="absmiddle"> Pressure</button>
+        $if 'rain' in gv.hw.Sensors:
+                <button name="rain" title="Show history of rain"><img src="static/icons/rain.png" align="absmiddle"> Rain</button>
+        $if 'illum' in gv.hw.Sensors:
+                <button name="illum" title="Show history of illumination"><img src="static/icons/illumination.png" align="absmiddle"> Illumination</button>
+        <p></p>
+        <button name="source" title="Show history of water source"><img src="static/icons/history_go.png" align="absmiddle"> Water source</button>
+    </form>
+    <p></p>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>
+                    No
+                </td>
+                <td>
+                    Name
+                </td>
+                <td>
+                </td>
+            </tr>
+            $for i in range(gv.hw.StNo)
+                <tr>
+                    <td>
+                        $i
+                    </td>
+                    <td>
+                        $gv.hws['StData'][i]['Name']
+                    </td>
+                    <td>
+                        <form method="post"> 
+                            <button name="$:i" title="Show history of station $:i"><img src="static/icons/history_go.png" align="absmiddle"></button>
+                        </form>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+    <p></p>
+    <form method="post"> 
+        <button name="cancel" title="Back to home page"><img src="static/icons/back.png" align="absmiddle"> Back to home page</button>
+    </form>
+</body>
+</html>
